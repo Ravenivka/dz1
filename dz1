@@ -4,6 +4,6 @@ int main(void)
     printf("i want a number");
     int i;
     scanf("%d",&i);
-    (i>=0) ? printf ("positive") : printf ("negativ");
+    (i>=0) ? printf ("positive") : printf ("negativ");//Можно цепочку тернарных
     return 0;
 }
